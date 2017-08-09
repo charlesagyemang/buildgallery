@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Build Gallery</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="col-lg-3">
+
+        </div>
+        <div class="col-lg-6">
+          <div>
+            <br  />
+
+              <div class="row center-login">
+                <div class="col-lg-6 col-md-6">
+                  <center><h1>Login</h1></center>
+
+                  <!-- This will display the message from the DevLess backend-->
+                  <div class="dv-notify alert alert-warning"></div>
+                  <form class="dv-signin" action="/Desktop/Galamsey/buildproject/plans">
+                    <!-- <input type="text" class="form-control" name="username" placeholder="please enter your username here"><br> -->
+                    <input type="email" class="form-control" name="email" placeholder="please enter your email here"><br>
+
+                    <input type="password" class="form-control" name="password" placeholder="please choose a password"><br>
+                    <button type="submit" class="btn btn-info pull-right">Sign In </button>
+                  </form>
+                </div>
+
+        		</div>
+
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+  <script src="http://buildgallery.herokuapp.com/js/devless-sdk.js" class="devless-connection" devless-con-token="41b1f8b6dd4823f63f8eeed626bfafa8"></script>
+  <script type="text/javascript" src="../script/app.js"></script>
+</body>
+</html>
